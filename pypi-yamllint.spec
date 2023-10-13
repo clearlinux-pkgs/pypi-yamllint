@@ -5,7 +5,7 @@
 #
 Name     : pypi-yamllint
 Version  : 1.32.0
-Release  : 6
+Release  : 7
 URL      : https://files.pythonhosted.org/packages/29/50/fd0b7b1e1f36327521909236df2d6795baebc30b4a0cb943531ff6734eb7/yamllint-1.32.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/29/50/fd0b7b1e1f36327521909236df2d6795baebc30b4a0cb943531ff6734eb7/yamllint-1.32.0.tar.gz
 Summary  : A linter for YAML files.
