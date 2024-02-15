@@ -1,5 +1,5 @@
 PKG_NAME := pypi-yamllint
-URL = https://files.pythonhosted.org/packages/91/1c/9e9c7be901a58c82ab437e3e36f0dd0f5ed76687b1ddff9a9519d7c5875d/yamllint-1.34.0.tar.gz
+URL = https://files.pythonhosted.org/packages/e6/d5/a21efb4a9feab396a9034170145b8367cbf45f6839004cce7ed5f00f401e/yamllint-1.35.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
