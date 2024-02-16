@@ -6,10 +6,10 @@
 # autospec commit: da8b975
 #
 Name     : pypi-yamllint
-Version  : 1.35.0
-Release  : 11
-URL      : https://files.pythonhosted.org/packages/e6/d5/a21efb4a9feab396a9034170145b8367cbf45f6839004cce7ed5f00f401e/yamllint-1.35.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/e6/d5/a21efb4a9feab396a9034170145b8367cbf45f6839004cce7ed5f00f401e/yamllint-1.35.0.tar.gz
+Version  : 1.35.1
+Release  : 12
+URL      : https://files.pythonhosted.org/packages/da/06/d8cee5c3dfd550cc0a466ead8b321138198485d1034130ac1393cc49d63e/yamllint-1.35.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/da/06/d8cee5c3dfd550cc0a466ead8b321138198485d1034130ac1393cc49d63e/yamllint-1.35.1.tar.gz
 Summary  : A linter for YAML files.
 Group    : Development/Tools
 License  : GPL-3.0 GPL-3.0-or-later
@@ -70,10 +70,10 @@ python3 components for the pypi-yamllint package.
 
 
 %prep
-%setup -q -n yamllint-1.35.0
-cd %{_builddir}/yamllint-1.35.0
+%setup -q -n yamllint-1.35.1
+cd %{_builddir}/yamllint-1.35.1
 pushd ..
-cp -a yamllint-1.35.0 buildavx2
+cp -a yamllint-1.35.1 buildavx2
 popd
 
 %build
@@ -81,7 +81,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1708012908
+export SOURCE_DATE_EPOCH=1708101073
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
